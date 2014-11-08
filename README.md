@@ -1,7 +1,7 @@
 To use (run this in your GDB prompt or add to `.gdbinit`):
 ```
 python import sys
-python sys.path.append('/home/USERNAME/Documents/GDB Scripts')
+python sys.path.append('/path/to/offsets.py')
 python import offsets
 offsets-of Whatever
 ```
@@ -9,7 +9,7 @@ offsets-of Whatever
 If you're making changes to it, the following might be more useful:
 ```
 python import sys
-python sys.path.append('/home/USERNAME/Documents/GDB Scripts')
+python sys.path.append('/path/to/offsets.py')
 python import offsets
 python import imp
 ```
